@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ea322620-dc4a-4659-bb2c-80562292ffb3" name="192.168.20.201/dev/Chat-Shoutbox-by-Gerd-Tintler" url="http://192.168.20.201/dev/Chat">
+        <fileTransfer rootFolder="/var/www/wordpress/dev/Chat" accessType="SFTP" host="192.168.20.201" port="22" sshConfigId="d935c470-b0a4-4c73-8eba-db6766245563" sshConfig="root@192.168.20.201:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
